@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>인형판매사이트</title>
+   <style type="text/css">
+   *{
+      padding: 0;
+      margin: 10px;
+   }
+   li{
+      list-style-type: none;
+   }
+   .clear{
+      clear: both;
+   }
+    body{ 
+       background-image:url("./img03/puppetdraw.png");
+       background-attachment: scroll;
+    
+        }
+    header{
+       width: 995px;
+       height: 110px;
+       margin-top: 10px;
+       border: solid 1px #cccccc;
+    }
+        
+      h1{
+         width: 995px;
+       height: 110px;
+       margin-top: 10px;
+       border: solid 1px #cccccc;
+         color: yellow;
+         background-color: pink;
+         font-size: 50px;
+         font-family: "궁서체";   
+         
+      }
+      form{ 
+            border-radius: 15px;
+            box-shadow:6px 6px 5px white;
+               border : solid 5px #e1285a;
+               width: 250px;
+               padding: 10px;
+      }
+      input[type="text"]{
+         background-color: white;
+         color: blue;
+         height: 30px;
+         font-size: 20px;
+      }
+      input[type="password"]{
+         background-color: white;
+         height: 30px;}
+
+       nav{
+          width: 995px;
+          height: 70px;
+          margin-top: 10px;
+          padding-top: 10px;
+          
+       }
+       nav li{
+          display: inline;
+          margin: 50px 30px;
+       }
+      ul{
+         list-style-type: none;
+         background-color: pink;
+          border: white;
+          width: 1280px;
+          margin-top: 0px;
+          padding-top: 0px;
+      }
+      ul li{
+         background-color: skyblue;
+         margin: 2px;
+      }
+      ul li:nth-child(2n+1)
+      {
+            color: red;
+      }
+      ul li:hover{
+         background-color: black;
+         color: white;
+      }
+      li{
+         display: inline;
+      }
+      #menu{
+         width: 1200px;
+         padding: 20px;
+         margin: 20px 40px;
+         background-color: #ffaaaa;
+         border-bottom: #ffdaab; 
+         text-align: bottom;
+      }
+   
+        
+footer{
+   width: 995px;
+   height: 100px;
+   border-top: solid 1px #cccccc;
+   margin-top: 20px;
+   border:solid 1px white;
+}
+ .yellowbox{
+       width: 500px;
+       height: 500px;
+       margin: 0px;
+       display: inline-block;
+       }
+       .yellowbox img{
+          border: 3px solid yellow;
+       }
+ 
+   </style>
+</head>
+<body>
+   <div>
+<p><h1>★인형상점★</h1></p>
+<form>
+   아이디:<input type="text">
+   비밀번호:<input type="password">
+   <button type="button"> 회원가입 </button>
+   <button type="button">아이디/비밀번호 찾기</button>
+   
+</form>
+</div>
+    
+    <div>
+    <strong>♥인기상품♥</strong><br>
+    <div class="yellowbox"><img src ="img03/가오나시.png"width="500px" height="500px">박스1</div>
+    <div class="yellowbox"><img src="img03/rabbitdoll.png" width="500px" height="500px">  박스2</div>
+    <div class="yellowbox"><img src="img03/teddybear.png" width="500px" height="500px">박스3</div>
+    <div class="yellowbox"><img src="img03/zzanggu.png" width="500px" height="500px">박스4</div>
+    <div class="yellowbox"><img src="img03/피카츄.png" width="500px" height="500px">박스5</div>
+    <div class="yellowbox"><img src="img03/" width="500px" height="500px">박스6</div>   
+    <div class="yellowbox"><img src="img03/" width="500px" height="500px">박스7</div>     
+    <div class="yellowbox"><img src="img03/" width="500px" height="500px">박스8</div> 
+   
+    
+    </div>
+
+<div class="clear"></div>
+<nav>
+    <ul id="menu">
+       <li>인형주문 </li>ㅣ
+       <li>공지사항 </li>ㅣ
+       <li>인형소개 </li>ㅣ
+       <li>사장소개 </li>ㅣ
+       <li>고객센터 </li>       
+    </ul>
+</nav>
+</body>
+</html>
